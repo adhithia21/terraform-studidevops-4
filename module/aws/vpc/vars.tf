@@ -1,8 +1,8 @@
-variable "access_key" {
-  type = string
+variable "shared_credentials_files" {
+  type = list
 }
 
-variable "secret_key" {
+variable "profile" {
   type = string
 }
 
